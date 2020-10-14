@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registrationfor.css">
+  
+</head>
+<body>
+    <div class="heading_div">
+    <h1>Registration Form</h1>
+        <p>Please fill in this form.</p>
+    </div>
+    <form method="POST" action="#">
+        <div>
+            <input class="photo_inp">
+            <br>
+        <img src="#" alt="My photo">
+        <br>
+        <input type="file">
+        </div>
+        <div>
+       <label for="Name">Name</label>
+       <input class="inpt" type="name" placeholder="Enter your Name" required>
+        </div>
+       
+       <div>
+       <label for="age">Age</label>
+       <input class="inpt" type="number" name="age" placeholder="00" required>
+       </div>
+       
+       <div> 
+       <label for="location">Location</label>
+       <input class="inpt" type="location" name="location" placeholder="Where do you live?" required> 
+       </div>
+       
+       <div>
+            <label for="Gender">Gender</label>
+                <input class="gender" type="radio" name="Gender">Male
+            
+                <input class="gender" type="radio" name="Gender">Female
+       </div>
+    
+            
+       <div>
+            <label for="date">Date Of Birth</label>
+                <input class="inpt"  type="Date" name="date of birth">
+       </div>  
+            
+        <div>
+            <label for="class">Class </label>
+                <input class="inpt"  type="text" name="class" placeholder="Class" required>
+        </div>
+            
+        <div>
+       <label for="email">Email </label>
+           <input class="inpt"  type="email" placeholder="..@gmail.com" required>
+        </div>
+       
+       <div>
+       <label for="country">Country</label>
+       <select name="country" id="select">
+           <option value="Liberia">Liberia</option>
+           <option value="USA">USA</option>
+           <option value="Ghana<">Ghana</option>
+           <option value="Nigeria">Nigeria</option>
+           <option value="Norway">Norway</option>
+           <option value="Guinea">Guinea</option>
+           <option value="England">England</option>
+           <option value="Egypt">Egypt</option>
+           <option value="Russia">Russia</option>
+           <option value="China">China</option>
+           <option value="Japan">Japan</option>
+           <option value="India">India</option>
+           <option value="Canada">Canada</option>
+           <option value="Tog">Tog</option>
+           <option value="South Africa">South Africa</option>
+           <option value="Gambia">Gambia</option>
+       </select>
+       </div>
+       <br>
+       
+       
+       <button type="submit">Submit</button>
+
+    
+       
+    </form>
+</body>
+</html>
