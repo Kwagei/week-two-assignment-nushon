@@ -1,0 +1,41 @@
+header{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+aside{
+    background-color: greenyellow;
+    padding: 50px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+#content{
+    background-color: rgb(224, 191, 4);
+    float: right;
+    padding: 50px;
+    width: 850px;
+    height: 150px;
+    text-align: center;
+    color: white;
+}
+section{
+    background-color: gray;
+    padding: 20px;
+    width: 910px;
+    height: 100px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: rgb(255, 165, 0);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
